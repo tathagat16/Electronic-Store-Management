@@ -3,4 +3,4 @@ A store management project in Python. A user can generate the bill for a custome
 
 Language used: Python
 Prerequisites: Django, Python 3.7.2
-database: SQL Lite
+Database: SQL Lite
