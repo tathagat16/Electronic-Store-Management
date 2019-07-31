@@ -7,7 +7,7 @@ from tkinter import messagebox
 import threading
 
 
-conn = sqlite3.connect("E:\Python Programs\Store Management\Database\store.db")
+conn = sqlite3.connect("store.db")
 c = conn.cursor()
 # date
 # date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -215,7 +215,7 @@ class Application:
 
     def generate_bill(self):
         # create the bill before updating......
-        directory = "E:/Python Programs/Store Management/Invoice/" + str(date) + "/"
+        directory = /Invoice/" + str(date) + "/"
         if not os.path.exists(directory):
             os.makedirs(directory)
 
